@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Title -->
+     <title>Array Todo-App</title>
+     <!-- Style sheet -->
+     <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+     <!-- body -->
+     <div class="continer">
+          <!-- start div -->
+          <div class="form">
+               <input type="text" id="input" placeholder="e.g add task" />
+               <button onclick="todoApp.addTask()">Add Task</button>
+          </div>
+          <!-- End start div -->
+
+          <!-- AddTask in li -->
+          <h5>Task List</h5>
+          <ul id="todolist"></ul>
+
+          <!-- Clear Btn -->
+          <div class="btn-two">
+               <button onclick="todoApp.clearTask()">Clear</button>
+          </div>
+     </div>
+     <!-- End body -->
+
+     <!-- javascript -->
+     <script src="assets/js/app.js"></script>
+</body>
+
+</html>
